@@ -1,0 +1,921 @@
+div > h1 {
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    margin: 0; 
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+}
+
+html, body {
+    margin: 0; 
+}
+
+.head > h2 {
+    background-color: rgba(0, 0, 0, 0.959);
+    color:rgba(255, 255, 0, 0.916);
+    padding: 10px 50px; 
+    text-align: center;
+    margin: 0; 
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.934);
+    background-image: url('./images/background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* CSS code for styling the form */
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    padding: 30px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white; /* Set text color to white */
+}
+
+input[type="text"],
+select {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+/* Arrange fields in the same row */
+label[for="advertisement_number"],
+label[for="date_of_application"] {
+    display: inline-block;
+    width: 48%; /* Adjust as needed */
+}
+
+label[for="application_number"],
+label[for="post_applied_for"] {
+    display: inline-block;
+    width: 48%; /* Adjust as needed */
+    margin-left: 4%;
+}
+
+label[for="department_school"] {
+    clear: both;
+    display: block;
+}
+.personal-details label,
+.personal-details input{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px; /* Optional: Add some margin between the elements */
+}
+
+.personal-details input {
+    width: calc(50% - 110px); /* Optional: Adjust the width as needed */
+    margin-right: 10px;
+    background-color: #555;
+    /* "50%" sets the width of each input to 50% of the parent container minus 5 pixels */
+}
+#p_d{
+    margin-left:40px;
+}
+#firstName{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 22px;
+    margin-bottom: 17px;
+}
+#middleName{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 17px;
+    margin-bottom: 17px;
+    
+}
+#lastName{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 25px;
+    margin-bottom: 17px;
+}
+
+#nationality{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 32px;
+    margin-bottom: 17px;
+    
+}
+#dob{
+    padding: 8px;
+    border-radius: 5px;
+    color:white;
+    background-color: #555;
+    width: 230px;
+    margin-left: 10px;
+    
+    margin-bottom: 17px;
+}
+#gender{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 57px;
+    margin-bottom: 17px;
+}
+#maritalStatus{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 4px;
+    margin-bottom: 17px;
+    
+}
+
+.r{
+    
+        margin-left: 10px; /* Pushes the text to the right */
+    
+}
+#category{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 45px;
+    margin-bottom: 17px;
+    margin-right:20px;
+}
+#idProof{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 36px;
+    margin-bottom: 17px;
+}
+#updateIdProof{
+    background-color: #555;
+    color:white;
+    width: 110px;
+    margin-left: 0px;
+    margin-bottom: 17px;
+    padding:3px;
+    border-radius: 5px;
+}
+#fathersName{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 5px;
+    margin-bottom: 17px;
+}
+
+
+.address-container {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+}
+
+
+.address-container label,
+.addresss-container input{
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    margin-bottom: 10px; /* Optional: Add some margin between the elements */
+}
+
+.address-container input {
+    width: calc(50% - 110px); /* Optional: Adjust the width as needed */
+    margin-right: 10px;
+    background-color: #555;
+    /* "50%" sets the width of each input to 50% of the parent container minus 5 pixels */
+}
+#corr_add{
+    margin-bottom: 40px;
+    margin-left:40px;
+    
+}
+#per_add{
+    margin-bottom: 40px;
+    margin-left:40px;
+}
+#street{
+    width:280px;
+    background-color: #555;
+    color:white;
+    margin-bottom: 20px;
+    margin-left:40px;
+}
+#state{
+    width:280px;
+    background-color: #555;
+    color:white;
+    margin-bottom: 20px;
+    margin-left:40px;
+}
+#city{
+    width:280px;
+    background-color: #555;
+    color:white;
+    margin-bottom: 20px;
+    margin-left:40px;
+}
+#country{
+    width:280px;
+    margin-bottom: 20px;
+    margin-left:40px;
+    
+}
+#postalCode{
+    width:280px;
+    margin-bottom: 20px;
+    margin-left:40px;
+}
+
+.contact-details label,
+.contact-details input{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px; /* Optional: Add some margin between the elements */
+}
+
+.contact-details input {
+    width: calc(50% - 110px); /* Optional: Adjust the width as needed */
+    margin-right: 10px;
+    background-color: #555;
+    /* "50%" sets the width of each input to 50% of the parent container minus 5 pixels */
+}
+#alternatemobile{
+    width:200px;
+}
+#email{
+    margin-left: 70px;
+}
+#alternatMobile{
+    margin-left:895px;
+}
+#mobileNumber{
+    width:230px;
+    margin-left:30px;
+    margin-bottom:20px;
+}
+#landline{
+    margin-left:20px;
+    width:230px;
+    margin-bottom:20px;
+}
+#alternateEmail{
+    width:230px;
+    margin-left:10px;
+}
+
+.advertisement-details input{
+   background-color: #555;
+   color: white;
+   width: 300px;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+#dob1{
+    width:250px;
+    margin-bottom:13px;
+    padding: 10px;
+}
+#viewUploadedFile{
+    background-color: rgb(23, 194, 217);
+    border-radius: 5px;
+    padding: 5px;
+    width:120px;
+}
+#viewUploadedFile1,#viewUploadedFile2,#viewUploadedFile3,#viewUploadedFile4,#viewUploadedFile5,#viewUploadedFile6,#viewUploadedFile7,#viewUploadedFile8,#viewUploadedFile9,#viewUploadedFile10,#viewUploadedFile11{
+    background-color: rgb(23, 194, 217);
+    border-radius: 5px;
+    padding: 5px;
+    width:120px;
+    margin-left: 20px;
+}
+#logout{
+    background-color: rgb(255, 0, 0);
+  border-radius : 5px;
+  margin-left:590px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color:white;
+}
+#forgot{
+    background-color: rgb(111, 236, 21);
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px;
+    
+}
+.class1{
+    display: flex;
+}
+.photo section{
+    margin-left:100px;
+}
+.advertisement-details,.photo-section{
+    width: 50%; /* Adjust as needed */
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .photo-section{
+    margin-left: 10px; /* Adjust the spacing between the classes */
+  }
+  .photo-section label{
+    margin-top:30px;
+    
+  }
+  .photo-section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    
+  }
+#submi{
+    background-color: rgb(247, 255, 25);
+    margin-left:315px;
+    margin-top:20px;
+    padding: 10px;
+    width:120px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*PAGE 2*/
+#univ{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 57px;
+    margin-bottom: 17px;
+}
+#dept{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 57px;
+    margin-bottom: 17px;
+}
+#super{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 25px;
+    margin-bottom: 17px;
+}
+#yoj{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 32px;
+    margin-bottom: 17px;
+}
+#doa{
+    background-color: #555;
+    color:white;
+    width: 245px;
+    margin-left: 32px;
+    margin-bottom: 17px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#title1{
+    background-color: #555;
+    color:white;
+    width: 250px;
+    margin-left: 38px;
+    margin-bottom: 17px;
+}
+#dost{
+    background-color: #555;
+    color:white;
+    width: 630px;
+    margin-left: 8px;
+    margin-bottom: 17px;
+    margin-top:20px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#degree{
+    background-color: #555;
+    color:white;
+    width: 210px;
+    margin-left: 38px;
+    margin-bottom: 17px;
+}
+#un{
+    background-color: #555;
+    color:white;
+    width: 270px;
+    margin-left: 45px;
+    margin-bottom: 17px;
+
+}
+#br{
+    background-color: #555;
+    color:white;
+    width: 210px;
+    margin-left: 57px;
+    margin-bottom: 17px;
+
+}
+#yoj1{
+    background-color: #555;
+    color:white;
+    width: 270px;
+    margin-left: 22px;
+    margin-bottom: 17px;
+
+}
+#yoc{
+    background-color: #555;
+    color:white;
+    width: 200px;
+    margin-left: 28px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    padding: 6px;
+
+}
+#degree2{
+    width:250px;
+    margin-left: 30px;
+    margin-bottom: 17px;
+}
+#un2{
+    width:250px;
+    margin-left: 30px;
+    margin-bottom: 17px;
+
+}
+#br2{
+    width:250px;
+    margin-left: 50px;
+    margin-bottom: 17px;
+
+}
+#yoj2{
+    width:250px;
+    margin-bottom: 17px;
+
+}
+#yoc1{
+    width:240px;
+    margin-left: 20px;
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+
+}
+#dur1{
+    width:250px;
+    margin-bottom: 17px;
+
+}
+#cgpa1{
+    width:250px;
+    margin-left: 100px;
+}
+#div1{
+    width:250px;
+    margin-left: 10px;
+}
+#dur{
+    background-color: #555;
+    color:white;
+    width: 270px;
+    margin-left: 12px;
+    margin-bottom: 17px;
+
+
+}
+#cgpa{
+    background-color: #555;
+    color:white;
+    width: 210px;
+    margin-left: 113px;
+    margin-bottom: 17px;
+
+}
+#div{
+    background-color: #555;
+    color:white;
+    width: 270px;
+    margin-left: 20px;
+    margin-bottom: 17px;
+}
+#myTable,#myTable11,#myTable2,#myTable3 {
+    width: 750px; /* Adjust the width of the table as needed */
+    border-collapse: collapse;
+    margin: 5px auto; /* Center the table on the page */
+    
+}
+
+#myTable th, #myTable td,#myTable11 th, #myTable11 td,#myTable2 th, #myTable2 td,#myTable3 th, #myTable3 td {
+    border: 1px solid #ddd;
+    padding: 5px; /* Adjust the padding of table cells */
+    text-align: center;
+    color: white; 
+}
+
+/* #myTable th {
+    background-color: #f2f2f2;
+} */
+
+#myTable input[type="text"] {
+    width: 80%; /* Adjust the width of the text box */
+    padding: 10px;
+    box-sizing: border-box;
+}
+#myTable11 input[type="text"] {
+    width: 80%; /* Adjust the width of the text box */
+    padding: 10px;
+    box-sizing: border-box;
+}
+#myTable2 input[type="text"] {
+    width: 80%; /* Adjust the width of the text box */
+    padding: 10px;
+    box-sizing: border-box;
+}
+#myTable3 input[type="text"] {
+    width: 80%; /* Adjust the width of the text box */
+    padding: 10px;
+    box-sizing: border-box;
+}
+#myTable1 {
+    width: 750px; /* Adjust the width of the table as needed */
+    border-collapse: collapse;
+    margin: 5px auto; /* Center the table on the page */
+    
+}
+
+#myTable1 th, #myTable1 td {
+    border: 1px solid #ddd;
+    padding: 5px; /* Adjust the padding of table cells */
+    text-align: center;
+    color: white; 
+}
+
+/* #myTable th {
+    background-color: #f2f2f2;
+} */
+
+#myTable1 input[type="text"] {
+    width: 80%; /* Adjust the width of the text box */
+    padding: 10px;
+    box-sizing: border-box;
+}
+.school label,
+.scool input{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px; /* Optional: Add some margin between the elements */
+}
+
+.school input {
+    width: calc(50% - 110px); /* Optional: Adjust the width as needed */
+    margin-right: 10px;
+    background-color: #555;
+    /* "50%" sets the width of each input to 50% of the parent container minus 5 pixels */
+}
+#s_d{
+    margin-left:40px;
+}
+
+.addi label,
+.addi input{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px; /* Optional: Add some margin between the elements */
+}
+
+.addi input {
+    width: calc(50% - 110px); /* Optional: Adjust the width as needed */
+    margin-right: 10px;
+    background-color: #555;
+    /* "50%" sets the width of each input to 50% of the parent container minus 5 pixels */
+}
+#a_d{
+    margin-left:40px;
+}
+.d_c {
+    width: 15px; /* Adjust the width for the First Name column */
+}
+
+.yjoi{
+    width: 2500px; /* Adjust the width for the Comment column */
+}
+/* PAGE#*/
+#pos{
+    background-color: #555;
+    color:white;
+    width: 230px;
+    margin-left: 70px;
+    margin-bottom: 17px;
+}
+#org{
+    background-color: #555;
+    color:white;
+    width: 260px;
+    margin-left: 50px;
+    margin-bottom: 17px;
+}
+#sta{
+    background-color: #555;
+    color:white;
+    width: 230px;
+    margin-left: 85px;
+    margin-bottom: 17px;
+}
+#doj{
+    background-color: #555;
+    color:white;
+    width: 260px;
+    margin-left: 40px;
+    margin-bottom: 17px;
+
+}
+#dol{
+    background-color: #555;
+    color:white;
+    width: 230px;
+    margin-left: 20px;
+    margin-bottom: 17px;
+
+}
+#dur_t{
+    background-color: #555;
+    color:white;
+    width: 260px;
+    margin-left: 17px;
+    margin-bottom: 17px;
+
+}
+.Emp_de label,
+.Emp_de input{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px; /* Optional: Add some margin between the elements */
+}
+
+.Emp_de input {
+    width: calc(50% - 110px); /* Optional: Adjust the width as needed */
+    margin-right: 10px;
+    background-color: #555;
+    /* "50%" sets the width of each input to 50% of the parent container minus 5 pixels */
+}
+#emp_d{
+    margin-left:40px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.box {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+   color:white;
+   
+}
+
+.box h2 {
+    font-size: 20px;
+   
+    margin-bottom: 10px;
+}
+
+.text-box {
+    width: 100%;
+    background-color:#555 ;
+    border-radius: 5px;
+    height: 200px; /* Adjust height as needed */
+    resize: vertical; /* Allow vertical resizing */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+#gh{
+    margin-top: 2px;
+}
+/*page4*/
+#tb1{
+    width:60px;
+    margin-left: 70px;
+}
+#tb2{
+    width:60px;
+    margin-left: 45px;
+}
+#tb3{
+    width:60px;
+    margin-left: 52px;
+}
+#tb4{
+    width:60px;
+    margin-left: 20px;
+}
+#tb5{
+    width:60px;
+    margin-left: 20px;
+}
+#tb6{
+    width:60px;
+    margin-left: 140px;
+}
+#tb7{
+    width:60px;
+    margin-left: 140px;
+}
+#sh2{
+    background-color: #555;
+}
+#tb10{
+    width:800px;
+}
+#u_i_f,#u_i_f1,#u_i_f2,#u_i_f3,#u_i_f4,#u_i_f5,#u_i_f6,#u_i_f7,#u_i_f8,#u_i_f9,#u_i_f10,#u_i_f11{
+    background-color: #555;
+    color:white;
+    width: 200px;
+    margin-left: 0px;
+    margin-bottom: 17px;
+    padding:3px;
+    border-radius: 5px;
+}
+#v_u_f{
+    background-color: rgb(23, 194, 217);
+    border-radius: 5px;
+    padding: 5px;
+    width:120px;
+}
+#p_s{
+    width:750px;
+}
+#dec{
+    width:800px;
+    height: 50px;
+    align-items:center ;
+}
+#yes-no{
+    background-color: greenyellow;
+    padding:3px;
+    width:50px;
+}
+#saveAndSubmit{
+    background-color: aqua;
+    color: black;
+    width:200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 300px;
+
+    
+}
+.savez{
+    background-color: aqua;
+    color: black;
+    width:200px;
+    padding: 4px;
+    border-radius: 5px;
+}
+/* Change Password form styles */
+.change-password-container {
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: #1c1c1cbe;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.change-password-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 130px;
+    font-size: large;
+}
+
+.change-password-form input[type="password"] {
+    flex: 1 1 100%; 
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px; 
+    font-size: 16px; 
+    border-radius: 5px;
+    background-color: #555;
+    border: black 2px solid;
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.change-password-form input[type="submit"] {
+    flex: 1 1 100%;
+    background-color: #ffffff;
+    color: #000000d5;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 225px;
+    width:100px;
+}
+
+.change-password-form input[type="submit"]:hover {
+    background-color: #e3f02cd0;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Styling for the link to the register page */
+.change-password-form a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.change-password-form a:hover {
+    text-decoration: underline;
+}
+
+.change-password-container h2{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#change-password-form{
+    margin-top: 60px;
+}
+#submitch{
+    background-color: aqua;
+    padding: 10px;
+    margin-left: 120px;
+    border-radius: 5px;
+}
+#addDetailsBtn,#addDetailsBtn1,#addDetailsBtn2,#addDetailsBtn3,#addDetailsBtn4{
+    background-color: aqua;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
